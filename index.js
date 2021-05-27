@@ -1,5 +1,5 @@
-var fs = reqire('fs');
-var spawn = reqire('child_process').spawn;
+var fs = require('fs');
+var spawn = require('child_process').spawn;
 
 var services = [
     'web-app', 
